@@ -34,6 +34,8 @@
 }
 
 /* Hamburger line */
+
+/* crearea primei linii  */
 .menu-wrap .hamburger > div {
   position: relative;
   flex: none;
@@ -124,6 +126,7 @@
   padding: 0px 0px 20px 0px;
 }
 
+/* stilizarea fiecarui link din interiorul navbarului */
 .menu-wrap .menu > div > div > nav > ul > li >a {
   text-decoration: none;
   color: inherit;
@@ -145,3 +148,9 @@
   opacity: 1;
   transition: opacity 0.4s ease 0.4s ;
 }
+
+/* in loc sa mai aplica regula cu parinte-copil, pot sa aplica acest operator > pentru a 
+evidentia parintele si copilul din clasa curenta */
+
+/* for example-am .menu > div (se aplica stilizarea pentru copilul div din interiorul parintelui
+menu) */
